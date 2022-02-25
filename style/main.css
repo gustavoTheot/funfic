@@ -110,14 +110,7 @@ nav .navbar ul li {
           transition-duration: 0.2s;
   -webkit-transition-timing-function: linear;
           transition-timing-function: linear;
-}
-
-nav .navbar ul li a {
   padding: 10px;
-  -webkit-transition-duration: 0.2s;
-          transition-duration: 0.2s;
-  -webkit-transition-timing-function: linear;
-          transition-timing-function: linear;
 }
 
 nav .navbar ul li:hover {

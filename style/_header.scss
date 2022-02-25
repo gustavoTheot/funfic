@@ -73,11 +73,8 @@ nav{
 
                 @include scale-text();
 
-                a{
-                    padding: 10px;
-                    @include scale-text();
-                }
-
+                padding: 10px;
+                    
                 &:hover{
                     transform: scale(1.1);
                 }
