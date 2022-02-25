@@ -79,9 +79,9 @@ function createStory(){
 
 // limpando os valores do input assim que for criado uma história
 function clearValues(){
-    let auth = document.querySelector('.auth').value = ''
-    let storyTitle = document.querySelector('.title-fic').value = ''
-    let story = document.querySelector('.story').value = ''
+    document.querySelector('.auth').value = ''
+    document.querySelector('.title-fic').value = ''
+    document.querySelector('.story').value = ''
 }
 
 buttonCreate.addEventListener('click', handleClick)
