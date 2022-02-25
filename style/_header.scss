@@ -1,0 +1,87 @@
+header{
+    margin-top: 20px;
+}
+
+nav{
+    max-width: 600px;
+
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo{
+        cursor: pointer;
+
+        h1{
+            font-weight: 800;
+            letter-spacing: 2px;
+            font-size: 30px;
+
+            @include scale-text();
+            a{
+                @include scale-text();
+                &:hover{
+                    color: $one-color
+                }
+            }
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
+
+    .navbar{
+        max-width: 400px;
+        width: 400px;
+        
+        margin: 14px 0 40px 0;
+        
+        ul{
+            height: 60px;
+
+            display: flex;
+            justify-content: space-around;
+
+            .item-one a:hover{
+                color: $five-color;
+            }
+
+            .item-two a:hover{
+                color: $two-color;
+            }
+
+            .item-three a:hover{
+                color: $three-color;
+            }
+
+            .item-four a:hover{
+                color: $four-color;
+            }
+
+            li{
+                height: 60px;
+
+                font-size: 14px;
+                font-weight: 600;
+
+                cursor: pointer;
+
+                display: flex;
+                align-items: center;
+
+                @include scale-text();
+
+                a{
+                    padding: 10px;
+                    @include scale-text();
+                }
+
+                &:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
+}

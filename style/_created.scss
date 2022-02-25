@@ -1,0 +1,58 @@
+form{
+    max-width: 600px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    select, input, button{
+        width: 400px;
+        height: 50px;
+
+        font-size: 12px;
+
+        border: none;
+        border-radius: 4px;
+
+        padding-left: 20px;
+        margin: 10px 0 10px;
+
+        background-color: rgb(236, 236, 236);
+
+        outline: none;
+    }
+
+    textarea{
+        width: 400px;
+        height: 400px;
+        
+        border: none;
+        border-radius: 4px;
+
+        font-size: 12px;
+
+        background-color: rgb(236, 236, 236);
+
+        padding: 20px;
+        margin: 10px 0 10px;
+
+        outline: none;
+        resize: none;
+    }
+    
+    .button-creat{
+        color: white;
+        background-color: $one-color;
+
+        font-size: 14px;
+        font-weight: 600;
+
+        cursor: pointer;
+
+        &:hover{
+            background-color: #8937fc;
+        }
+    }
+
+}
