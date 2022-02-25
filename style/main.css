@@ -79,19 +79,19 @@ nav .navbar ul {
       justify-content: space-around;
 }
 
-nav .navbar ul .item-one a:hover {
+nav .navbar ul li:first-child:hover {
   color: #288CB7;
 }
 
-nav .navbar ul .item-two a:hover {
+nav .navbar ul li:nth-child(2):hover {
   color: #E66A81;
 }
 
-nav .navbar ul .item-three a:hover {
+nav .navbar ul li:nth-child(3):hover {
   color: #FB794D;
 }
 
-nav .navbar ul .item-four a:hover {
+nav .navbar ul li:last-child:hover {
   color: #F7A044;
 }
 

@@ -44,19 +44,19 @@ nav{
             display: flex;
             justify-content: space-around;
 
-            .item-one a:hover{
+            li:first-child:hover{
                 color: $five-color;
             }
 
-            .item-two a:hover{
+            li:nth-child(2):hover{
                 color: $two-color;
             }
 
-            .item-three a:hover{
+            li:nth-child(3):hover{
                 color: $three-color;
             }
 
-            .item-four a:hover{
+            li:last-child:hover{
                 color: $four-color;
             }
 
